@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+html,
+body {
+  background-image:url('https://image.freepik.com/free-photo/beer-glass-close-up-bubbles-beer-mug-with-water-drop_73523-964.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Merriweather', serif;
+}
+
+#map {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.display-4 {
+  text-align: center;
+  font-weight: bold;
+  opacity: 1;
+  color: #ffffff;
+
+}
+
+p {
+  text-align: justify;
+  opacity: 1;
+  color:#212931;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Merriweather', serif;
+}
+
+.jumbotron {
+  /* background-image:url('https://image.freepik.com/free-photo/beer-glass-close-up-bubbles-beer-mug-with-water-drop_73523-964.jpg'); */
+  background-color:#212931;
+  background-size: cover;
+  background-position: center; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.actions img {
+    text-align: center;
+    width: 100px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%) 
+}
+
+img {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.topnav {
+  overflow: hidden;
+  padding-left: 10%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.clear {
+  clear: left;
+}
+
+.left {
+  float: left;
+  width:  auto;
+  /* padding: 10px; */
+  /* border: 1px solid; */
+  text-align: center;
+  /* margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px; */
+  /* opacity: .5;
+  background-color: #ffffff; */
+}
+
